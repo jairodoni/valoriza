@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "build": "node src/server.ts",
@@ -12,7 +13,6 @@
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.4.0",
     "cors": "^2.8.5",
-    "@types/express": "^4.17.12",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "handlebars": "^4.7.7",
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.10",
-    
+    "@types/express": "^4.17.12",
     "@types/jsonwebtoken": "^8.5.2",
     "@types/nodemailer": "^6.4.2",
     "@types/nodemailer-express-handlebars": "^4.0.0",
