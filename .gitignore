@@ -1,2 +1,4 @@
 /node_modules
 **/*.sqlite
+mailer.config.js
+.env

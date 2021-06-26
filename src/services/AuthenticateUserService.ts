@@ -7,7 +7,6 @@ interface IAuthenticateRequest {
   email: string;
   password: string;
 }
-
 class AuthenticateUserService {
   async execute({ email, password }: IAuthenticateRequest) {
     const usersRepositories = getCustomRepository(UsersRepositories);
@@ -33,8 +32,8 @@ class AuthenticateUserService {
       {
         email: user.email,
       },
-      //gerar um codigo aleadorio de segurança e coloque aqui
-      "9d89fadd5d4a7ddde31468b91626e499",
+      //gerar um codigo aleadorio de segurança e usar como variavel de ambiente
+      `${process.env.JWT_SECURET_KEY}`,
       {
         subject: user.id,
         expiresIn: "1d",
