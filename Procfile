@@ -1,0 +1,3 @@
+APP_URL=https://valorizanodeapp.herokuapp.com/
+JWT_SECURET_KEY=5f96fa72caf01f77755686b0c3931fed
+SERVER_PORT=3333
