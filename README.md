@@ -71,22 +71,6 @@ $ npm run dev
 $ yarn dev
 ```
 
-### Executando o Client
-
-```sh
-# Executando o website no modo de desenvolvimento:
-$ npm run dev
-
-    OU
-
-# Executando o website no modo de desenvolvimento:
-$ yarn dev
-```
-
-> Se o browser não abrir automaticamente, acesse: http://localhost:3000.
-
----
-
 ## **📚 Referências**
 
 - [Blog Rocketseat][rocketseat_blog]
