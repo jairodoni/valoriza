@@ -75,8 +75,6 @@ $ yarn dev
 
 - [Blog Rocketseat][rocketseat_blog]
 - [Rocketseat][rocketseat_plataforma]
-- [ReactJS][react_doc] | [ReactJS pt-BR][react_doc_ptbr]
-- [Next.js][next]
 - [Node.js][node]
 
 ## **👨‍🚀 Autor**
