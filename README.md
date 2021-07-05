@@ -27,6 +27,18 @@
   
 </div>
 
+<p align="center">
+  <img alt="Preview" src="./.github/preview.png">
+</p>
+
+## 💻 Projeto
+
+Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
+
+<p align="left">
+  <img width="70%" alt="Preview" src="./.github/valoriza.png">
+</p>
+
 ---
 
 ## **✨ Tecnologias**
