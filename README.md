@@ -13,17 +13,30 @@
   ">
   
   <h1 align="center">
-      NLW TOGETHER - NODE
+      Valoriza
   </h1>
   
   
   
   [![Licence](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE.md)  <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/> 
+  <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
+  <img alt="SQLite" src ="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"/>
   
   
   <!-- ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript_shields] ![Next][next_shields] -->
   
 </div>
+
+---
+
+## **✨ Tecnologias**
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- **[Node.js](https://nodejs.org/en/)**
+- **[Typescript](https://www.typescriptlang.org/)**
+- **[Express](https://expressjs.com/pt-br/)**
+- **[JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)**
 
 ---
 
@@ -41,10 +54,14 @@ Após ter o **Node** instalado, instale as dependências do **React** de forma g
 
 Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
+### Instalando as Dependencias
+
 ```sh
+ # Execute o comando para baixar as dependências
 $ npm install
 
-# ou
+# OU
+
 $ yarn
 ```
 
@@ -54,7 +71,7 @@ $ yarn
 
 ```sh
 
-# Executando o website no modo de desenvolvimento:
+# Execute o comando para criar as tabelas do banco de dados.
 $ yarn typeorm migration:run
 
 ```
@@ -62,12 +79,11 @@ $ yarn typeorm migration:run
 ### Executando o Server
 
 ```sh
-# Executando o website no modo de desenvolvimento:
+# Execute o comando para iniciar a aplicação.
 $ npm run dev
 
-    OU
+#    OU
 
-# Executando o website no modo de desenvolvimento:
 $ yarn dev
 ```
 
