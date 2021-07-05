@@ -45,10 +45,13 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- **[Node.js](https://nodejs.org/en/)**
 - **[Typescript](https://www.typescriptlang.org/)**
+- **[Node.js](https://nodejs.org/en/)**
+- **[Typeorm](https://typeorm.io)**
 - **[Express](https://expressjs.com/pt-br/)**
 - **[JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)**
+- **[SQLite](https://www.npmjs.com/package/sqlite3)**
+- **[Beekeeper](https://www.beekeeperstudio.io)**
 
 ---
 
